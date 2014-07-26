@@ -53,6 +53,7 @@ TARGET_BOOTLOADER_BOARD_NAME := pico
 ARCH_ARM_HIGH_OPTIMIZATION := true
 ARCH_ARM_HIGH_OPTIMIZATION_COMPAT := true
 TARGET_USE_O3 := true
+TARGET_ENABLE_AV_ENHANCEMENTS := true
 
 # cortex-a9 is used to take advantage of NEON optimizations
 TARGET_ARCH_VARIANT_CPU := cortex-a9
